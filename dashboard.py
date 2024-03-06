@@ -8,7 +8,7 @@ import seaborn as sns
 import streamlit as st
 sns.set(style='dark')
 
-df_day = pd.read_csv("data/day.csv")
+df_day = pd.read_csv("day.csv")
 
 st.header('Bike Sharing Dataset')
 
